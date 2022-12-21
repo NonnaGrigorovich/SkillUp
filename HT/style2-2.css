@@ -1,0 +1,21 @@
+#one {
+    border: 3px solid blue;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .two {
+    background-color: black;
+    color: white;
+    font-size: 27px;
+  }
+  
+  .three {
+    font-size: 25px;
+    border-right: 3px dashed red;
+  }
+  
+  .Lorem {
+    color: red;
+  }
+  

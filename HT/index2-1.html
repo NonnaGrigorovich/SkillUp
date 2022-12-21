@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style2-1.css" />
+  </head>
+  <body>
+    <form>
+      <table border="3">
+        <tr id="text">
+          <td colspan="2" id="texttt">Form</td>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td>Surname</td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td>Sex</td>
+          <td>
+            <input type="radio" name="gender" /> Male <br />
+            <input type="radio" name="gender" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="date">Date of birth:</label>
+          </td>
+          <td>
+            <input type="date" />
+          </td>
+        </tr>
+        <tr>
+          <td>Qualification</td>
+          <td>
+            <select>
+              <option>QA Engineer</option>
+              <option>Front-end developer</option>
+              <option>SEO-specialist</option>
+              <option>Web designer</option>
+              <option>IT recruiter</option>
+              <option>Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Work experiece</td>
+          <td>
+            <input type="radio" name="experience" value="" id="Junior" />
+            <label for="Junior">Junior</label>
+            <br />
+            <input type="radio" name="experience" value="" id="Middle" />
+            <label for="Middle">Middle</label>
+            <br />
+            <input type="radio" name="experience" value="" id="Senior" />
+            <label for="Senior">Senior</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <br />
+            Tell us about youself:
+            <br /><br />
+            <textarea name="Comment" cols="30" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td id="textt" colspan="2">
+            <input type="submit" value="To send" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

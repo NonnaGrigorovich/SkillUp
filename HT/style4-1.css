@@ -1,0 +1,63 @@
+main {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 0px 10px 10px 10px black;
+}
+
+form {
+    width: 800px;
+    height: 500px;
+    background-color: cornsilk;
+    margin: auto;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+
+.name {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    border-radius: 5px;
+}
+
+.email {
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    border-radius: 5px;
+}
+
+.subject {
+    position: absolute;
+    width: 370px;
+    height: 40px;
+    top: 185px;
+    left: 200px;
+    border-radius: 5px;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    top: 400px;
+    left: 315px;
+    border-radius: 5px;
+}
+
+.message {
+    position: absolute;
+    width: 370px;
+    height: 90px;
+    top: 265px;
+    left: 200px;
+    border-radius: 5px;
+}

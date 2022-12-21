@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <form>
+      <table border="3">
+        <tr id="text">
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td>Sex</td>
+          <td>
+            <input type="radio" name="gender" /> Male <br />
+            <input type="radio" name="gender" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td>Eye color</td>
+          <td>
+            <select>
+              <option>Green</option>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Brown</option>
+              <option>Grey</option>
+              <option>Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Check all thet aplly</td>
+          <td>
+            <input type="checkbox" />Over 6 feet tall
+            <br />
+            <input type="checkbox" />Over 200 pounds
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <br />
+            Describe your athletic ability:
+            <br /><br />
+            <textarea name="Comment" cols="30" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td id="textt" colspan="2">
+            <input type="submit" value="Отправить" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
