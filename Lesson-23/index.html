@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-23</title>
+    <style>
+        .tab-title-wrap {
+            display: flex;
+            gap: 30px;
+        }
+
+        .tab-title-item {
+            padding: 10px 20px;
+            border: 1px solid red;
+            cursor: pointer;
+        }
+
+        .tab-title-item:hover, .tab-active {
+            background-color: red;
+            color: white;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tab-title-wrap">
+        <div class="tab-title-item">Tab 1</div>
+        <div class="tab-title-item">Tab 2</div>
+        <div class="tab-title-item">Tab 3</div>
+        <div class="tab-title-item">Tab 4</div>
+    </div>
+    <div class="tab-container">
+        <div class="tab-content">
+            <h2> <span>Hello</span>  tab 1</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque repudiandae laudantium nulla repellat deleniti, molestias, quibusdam nostrum maxime, eos nobis at rem obcaecati corporis fugit quam? Assumenda, voluptate deserunt.</p>
+            <p> <span class="text">Lorem ipsum, dolor sit amet</span> consectetur adipisicing elit.</p>
+        </div>
+        <div class="tab-content">
+            <h2>Hello tab 2</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque repudiandae laudantium nulla repellat deleniti, molestias, quibusdam nostrum maxime, eos nobis at rem obcaecati corporis fugit quam? Assumenda, voluptate deserunt.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci quaerat porro facere voluptatum voluptatem nam earum beatae provident ullam ea quam asperiores commodi et illum amet quidem voluptas, aliquam ad?</p>
+        </div>
+        <div class="tab-content">
+            <h2>Hello tab 3</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque repudiandae laudantium nulla repellat deleniti, molestias, quibusdam nostrum maxime, eos nobis at rem obcaecati corporis fugit quam? Assumenda, voluptate deserunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, id. Impedit laudantium maiores accusantium consectetur esse assumenda quam consequuntur itaque? </p>
+        </div>
+        <div class="tab-content">
+            <h2>Hello tab 4</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque repudiandae laudantium nulla repellat deleniti, molestias, quibusdam nostrum maxime, eos nobis at rem obcaecati corporis fugit quam? Assumenda, voluptate deserunt.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque repudiandae laudantium nulla repellat deleniti, molestias, quibusdam nostrum maxime, eos nobis at rem obcaecati corporis fugit quam? Assumenda, voluptate deserunt.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque repudiandae laudantium nulla repellat deleniti, molestias, quibusdam nostrum maxime, eos nobis at rem obcaecati corporis fugit quam? Assumenda, voluptate deserunt.</p>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

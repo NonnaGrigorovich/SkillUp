@@ -1,0 +1,19 @@
+.tab-content {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab-content h2 {
+  color: green;
+  padding: 35px;
+}
+.tab-content h2 span {
+  color: purple;
+}
+.tab-content h2 span:hover {
+  color: green;
+}
+.tab-content .text {
+  color: green;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+$color-primery: green;
+$color-secondary: purple;
+$paddins-s: 20px;
+
+@mixin flex($justifu, $aling) {
+    display: flex;
+    justify-content: $justifu;
+    align-items: $aling;
+}
+
+.tab-content {
+    padding: $paddins-s * 3;
+
+    @include flex(center, center);
+    
+    h2 {
+        color: $color-primery;
+        padding: $paddins-s + 15px;
+        span {
+            color: $color-secondary;
+
+            &:hover {
+                color: $color-primery;
+            }
+        }
+    }
+
+    .text {
+        color: $color-primery;
+    }
+}

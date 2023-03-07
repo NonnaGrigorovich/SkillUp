@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-17</title>
+    <style>
+        label {
+            position: relative;
+        }
+
+        label:before {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 30px;
+            border: 1px solid red;
+        }
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        input[type="checkbox"]:checked + label::before {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="title" onclick="alert('hello world')">Hello world</h1>  //onclick - подія -->
+    <h1 id="title">Hello world</h1>
+    <img src="apple.png" alt="">
+    <div>
+        <button>Change image</button>
+    </div>
+    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente voluptatum dolore quod nobis perferendis consequuntur porro. Doloremque neque ipsa alias possimus, omnis quo deserunt labore consectetur voluptatum corrupti ea.</p>
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam architecto sint unde explicabo inventore? Earum, eveniet numquam est, illo ea voluptatum neque sed recusandae dicta asperiores vero natus veritatis corrupti?</p>
+    <br>
+    
+    <input type="checkbox" id="red"> <label for="red">Red</label>
+    <script src="./app.js"></script>
+</body>
+</html>
